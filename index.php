@@ -18,7 +18,7 @@
             <?php foreach ($oeuvres as $key => $value) : ?>
 
                 <article class="oeuvre">
-                    <a href="oeuvre-1.html">
+                    <a href="oeuvre.php?id=<?php echo $value['id']?>">
                         <img src="<?php echo $value['image'] ?>" alt="Dodomu">
                         <h2><?php echo $value['titre'] ?></h2>
                         <p class="description"><?php echo $value['description_courte'] ?></p>
@@ -30,7 +30,14 @@
         </div>
     </main>
     <?php require_once(__DIR__ . '/footer.php'); ?>
+    
+    <!-- il faut utiliser la crementation ++ dans le foreach -->
+    <!-- étape 6 tester securiser dans la derniere etape 5 l'url -->
+    <!-- savoir expliquer la defirence entre require et require_once la fonction include  -->
+    <!-- la linge 14 require once des oeuvres.php il faut la metre dans le header.php -->
+    <!-- dans l'etape 5 l'url il faut utilier get  -->
 
 </body>
+
 
 </html>
