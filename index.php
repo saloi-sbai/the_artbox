@@ -11,7 +11,7 @@
 
 <body>
     <?php require_once(__DIR__ . '/header.php'); ?>
-    <?php require_once(__DIR__ . '/oeuvres.php'); ?>
+    
 
     <main>
         <div id="liste-oeuvres">
@@ -36,6 +36,7 @@
     <!-- savoir expliquer la defirence entre require et require_once la fonction include  -->
     <!-- la linge 14 require once des oeuvres.php il faut la metre dans le header.php -->
     <!-- dans l'etape 5 l'url il faut utilier get  -->
+    <!-- essaye de faire avec la boucle for -->
 
 </body>
 
