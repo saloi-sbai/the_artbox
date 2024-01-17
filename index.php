@@ -11,16 +11,16 @@
 
 <body>
     <?php require_once(__DIR__ . '/header.php'); ?>
-    
+
     <main>
         <div id="liste-oeuvres">
-            <?php foreach ($oeuvres as $key => $value) : ?>
+            <?php foreach ($oeuvres as $oeuvre) : ?>
 
                 <article class="oeuvre">
-                    <a href="oeuvre.php?id=<?php echo $value['id']?>">
-                        <img src="<?php echo $value['image'] ?>" alt="Dodomu">
-                        <h2><?php echo $value['titre'] ?></h2>
-                        <p class="description"><?php echo $value['description_courte'] ?></p>
+                    <a href="oeuvre.php?id=<?php echo $oeuvre['id'] ?>">
+                        <img src="<?php echo $oeuvre['image'] ?>" alt="Dodomu">
+                        <h2><?php echo $oeuvre['titre'] ?></h2>
+                        <p class="description"><?php echo $oeuvre['description_courte'] ?></p>
                     </a>
                 </article>
 
@@ -29,7 +29,7 @@
         </div>
     </main>
     <?php require_once(__DIR__ . '/footer.php'); ?>
-    
+
 </body>
 
 
