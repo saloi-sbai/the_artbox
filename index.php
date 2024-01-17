@@ -12,7 +12,6 @@
 <body>
     <?php require_once(__DIR__ . '/header.php'); ?>
     
-
     <main>
         <div id="liste-oeuvres">
             <?php foreach ($oeuvres as $key => $value) : ?>
