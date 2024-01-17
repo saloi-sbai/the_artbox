@@ -3,7 +3,6 @@
 //var_dump($_GET['id']);
 //var_dump($oeuvres[$_GET['id']]);
 //var_dump( $oeuvres[1]);
-
 ?>
 
 <!doctype html>

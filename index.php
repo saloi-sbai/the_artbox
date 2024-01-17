@@ -31,13 +31,6 @@
     </main>
     <?php require_once(__DIR__ . '/footer.php'); ?>
     
-    <!-- il faut utiliser la crementation ++ dans le foreach -->
-    <!-- étape 6 tester securiser dans la derniere etape 5 l'url -->
-    <!-- savoir expliquer la defirence entre require et require_once la fonction include  -->
-    <!-- la linge 14 require once des oeuvres.php il faut la metre dans le header.php -->
-    <!-- dans l'etape 5 l'url il faut utilier get  -->
-    <!-- essaye de faire avec la boucle for -->
-
 </body>
 
 
