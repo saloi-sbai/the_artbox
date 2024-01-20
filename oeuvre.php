@@ -1,7 +1,7 @@
 <?php require_once(__DIR__ . '/header.php'); ?>
 <main>
     <?php
-    if (isset($_GET['id']) && $_GET['id'] > 0 && $_GET['id'] < count($oeuvres)) {
+    if (isset($_GET['id']) && $_GET['id'] > 0 && $_GET['id'] <= count($oeuvres)) {
         $oeuvre = $oeuvres[$_GET['id'] - 1];
     ?>
         <article id="detail-oeuvre">
@@ -15,7 +15,7 @@
             </div>
         </article>
     <?php } else {
-        echo " aucune oeuvre trouve";
+        echo " aucune oeuvre trouvé";
     }
     ?>
 </main>
